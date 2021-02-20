@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:block;
+    /* background-color: rgb(234, 255, 237); */
+    background-image:url("../assets/folha.png");
+    background-repeat:repeat;
+    text-align: center;
+    background-size: 800px;
+}
+h4{
+    color:#cfdd26;
+    margin: 10px;
+}
+.img-manutencao{
+    margin-top:10%;
+    max-width: 70%;
+}
+#img-instagram{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .img-manutencao{
+        margin-top:30%;
+        max-width: 70%;
+    }
+    body{
+        background-size: cover;
+    }
+    #img-instagram{
+        margin-top: 20%;
+    }
+}
