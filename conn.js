@@ -4,7 +4,6 @@ const conn = mysql.createConnection({
     user : 'root',
     password : '',
     database : 'ecorenda2'*/
-    
     host : '162.241.203.62',
     user : 'gustav31_adm_ecorenda',
     password : 'ecorenda2020',
