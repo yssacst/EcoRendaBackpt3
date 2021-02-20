@@ -5,6 +5,10 @@ const cors = require('cors')
 app.use(cors())
 app.use(express.json())
 
+app.set('view engine', 'ejs');
+app.use(express.static(__dirname + '/public'));
+
+
 //HEROKU
 app.get('/', (req,res)=>{
     res.render('./index');
